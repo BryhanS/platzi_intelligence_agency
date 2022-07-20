@@ -1,0 +1,2 @@
+url = https://www.cia.gov/readingroom/historical-collections
+link = response.xpath('//a[starts-with(@href, "collection") and (parent::h3 or parent::h2)]/@href').getall()
